@@ -7,7 +7,8 @@ let package = Package(
         .iOS(.v11)
     ],
     products: [
-        .library(name: "libyuv", targets: ["libyuv"])
+        .library(name: "libyuv",
+                 targets: ["libyuv"]),
     ],
     targets: [
         .binaryTarget(
