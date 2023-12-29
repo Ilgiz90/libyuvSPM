@@ -1,6 +1,5 @@
 // swift-tools-version:5.3
 import PackageDescription
-
 let package = Package(
     name: "libyuv",
     products: [
@@ -8,6 +7,6 @@ let package = Package(
         .library(name: "libyuv", targets: ["libyuv"])
     ],
     targets: [
-        .binaryTarget(name: "libyuv", path: "Sources/libyuv.xcframework")
+        .binaryTarget(name: "libyuv", path: "libyuv.xcframework")
     ]
 )
